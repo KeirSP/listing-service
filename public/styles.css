@@ -1,0 +1,8 @@
+.jumbotron {
+    background-image: linear-gradient(to right, rgba(241, 240, 124, 0.781), rgba(137, 245, 245, 0.932));
+}
+
+img {
+    height: auto;
+    width: 150px;
+}

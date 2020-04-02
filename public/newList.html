@@ -4,15 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div id="listName">ListName</div>
-    <div id="listPrice">ListPrice</div>
-    <div id="listDescription">ListDescription</div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+                <div class="row"> 
+                    <div class = "col-md-6">
+                        <h1 class="display-4">The Pirate Ebay</h1>
+                         <p class="lead"> List your booty below! </p>
+                        </div>
+                    <div class="col-md-6">
+                         <img src="pirateship-300px.png" />
+                        </div>
+                    </div>
+                </div>
+      </div>
+    <div class="container">
+
+        <div class="form-group">
+            <label for="listName">Name of item:</label>
+            <div class="col-sm" id="listName"></div>
+        </div>
+        <div class="form-group">
+            <label for="listName">Price of item:</label>
+            <div class="col-sm" id="listPrice"></div>
+        </div>
+        <div class="form-group">
+            <label for="listName">Description of item:</label>
+            <div class="col-sm" id="listDescription"></div>
+        </div>
+
+
+
+
+
+    </div>
 </body>
 </html>

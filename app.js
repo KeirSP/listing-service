@@ -44,7 +44,7 @@ app.get('/results', (req, res) => {
         res.send(dom.serialize());
     });
     
-    res.sendFile('newList.html' , {root : 'public'});
+    //res.sendFile('newList.html' , {root : 'public'});
     //serve success page with customised list item
 });
 
